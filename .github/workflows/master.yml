@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - sam_branch
     paths:
       - "go.mod"
       - "**.go"
